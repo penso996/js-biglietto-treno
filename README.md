@@ -11,3 +11,9 @@ Il programma dovrà chiedere all’utente il numero di chilometri che vuole perc
 
 <-- Struttura logica -->
 
+- Chiedere all'utente "km" da percorrere e "età".
+- Calcolare il prezzo intero del biglietto: "km" * 0,21€
+- Dopodiché calcolare lo sconto, se presente:
+    20% per <18
+    40% per >65
+- Infine nell'output dichiarare il risultato nel formato 0,00€
