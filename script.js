@@ -12,11 +12,11 @@ let discount = 0;
 let discountPercentage = 0;
 
 if (age < 18) {
-    discountPercentage = 20;
     discount = fullPrice * 0.2;
+    discountPercentage = 20;
 } else if (age > 65) {
-    discountPercentage = 40;
     discount = fullPrice * 0.4;
+    discountPercentage = 40;
 }
 
 let finalPrice = fullPrice - discount;
