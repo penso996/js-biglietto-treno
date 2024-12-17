@@ -10,6 +10,7 @@ let fullPrice = km * 0.21;
 // 40% per >65
 let discount = 0;
 let discountPercentage = 0;
+
 if (age < 18) {
     discountPercentage = 20;
     discount = fullPrice * 0.2;
