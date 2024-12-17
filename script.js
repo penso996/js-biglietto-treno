@@ -30,4 +30,4 @@ if (discount > 0) {
     console.log("Purtroppo alla tua categoria di età non spetta nessuno sconto.");
 }
 
-console.log(`Pagherai: €${finalPrice.toFixed(2)}.`);
+console.log("Pagherai: " + finalPrice.toFixed(2) + "€");
