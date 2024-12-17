@@ -1,9 +1,9 @@
 // Chiedere all'utente "km" da percorrere e "età".
-let km = parseFloat(prompt("Inserire i KM da percorrere"));
-let age = parseInt(prompt("Inserire la propria età"));
+const km = parseFloat(prompt("Inserire i KM da percorrere"));
+const age = parseInt(prompt("Inserire la propria età"));
 
 // Calcolare il prezzo intero del biglietto: "km" * 0,21€
-let fullPrice = km * 0.21;
+const fullPrice = km * 0.21;
 
 // Dopodiché calcolare lo sconto, se presente:
 // 20% per <18
@@ -19,7 +19,7 @@ if (age < 18) {
     discountPercentage = 40;
 }
 
-let finalPrice = fullPrice - discount;
+const finalPrice = fullPrice - discount;
 
 // Infine nell'output dichiarare il risultato nel formato 0,00€
 console.log("Devi percorrere " + km + " km ed hai " + age + " anni.");
